@@ -1,5 +1,5 @@
 package server
 
-type Server interface {
+type WebServer interface {
 	Run(port string)
 }
